@@ -1,0 +1,60 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  background-color: #FFF;
+  font-family: 'Montserrat', sans-serif;
+}
+canvas {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  user-select: none;
+  background-color: #FFF;
+}
+
+.l-debug {
+  position: fixed;
+  top: 0;
+  left: 0;
+  background-color: #000;
+  color: #FFF;
+  font-size: 18px;
+  padding: 5px;
+}
+
+.ttl {
+  position: fixed;
+  width: 1%;
+  height: 100%;
+  color: #FFF;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: center;
+
+  padding-left: 10px;
+  mix-blend-mode: difference;
+  white-space: nowrap;
+}
+
+.ttl p {
+  padding: 10px;
+  font-size: 14px;
+}
+
+.ttl span {
+  font-size: 9px;
+}
+
+.ttl a {
+  padding: 10px;
+  font-size: 14px;
+  margin-top: 5px;
+  color: inherit;
+  text-decoration: underline;
+}
